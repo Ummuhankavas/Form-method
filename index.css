@@ -1,0 +1,62 @@
+/* Baslık */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(50, 50, 50);
+    
+}
+
+.container{
+width: 85%;
+margin: auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 25px 15px;
+    color: black;
+}
+
+fieldset{
+    padding: 10px 18px;
+}
+h3 {
+    padding: 10px 60px;
+}
+
+.personal label{
+    display: inline-block;
+    width: 130px;
+}
+
+.personal div {
+    margin: 8px 0px;
+}
+
+.other label{
+    display: inline-block;
+    width: 240px;
+}
+
+.fieldexp {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.fieldexp label {
+    display: inline-block;
+    width: 260px;
+}
+
+.exp {
+    display: flex;
+    flex-direction: column;
+}
+
+.lang {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
